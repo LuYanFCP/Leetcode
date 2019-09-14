@@ -5,7 +5,9 @@ using std::string;
 
 
 #define MAX(a, b) (a) > (b) ? (a) : (b)
-
+/*
+ * 这道题目的我的解法的时间复杂度为O(N) 空间复杂度为O(1)
+ */
 class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
