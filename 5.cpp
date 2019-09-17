@@ -49,7 +49,7 @@ public:
         for (int i = 1; i < n - 1; i++) {
             int i_mirror = 2 * C - i; // 找到i关于C的对称节点
             if (R > i) {  // 如果 i还在R的范围中，
-                P[i] = MIN(R - i, P[i_mirror]);
+                P[i] = MIN(R - i, P[i_mirror]);                    
             } else {
                 P[i] = 0;
             }
