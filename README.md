@@ -19,3 +19,7 @@
 ### 快排
 
 + No.1 [cpp](cpp/215_2.cpp) [python](python/215.py)
+
+## 动态规划
+
+No.53 [cpp](cpp/53.cpp) [python](python/53.py)
