@@ -1,5 +1,9 @@
 class Solution:
     def maxSubArray(self, nums):
+        """
+        68ms
+        13.6 MB
+        """
         n = len(nums)  
         if n == 0:
             return 0

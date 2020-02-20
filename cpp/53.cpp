@@ -9,6 +9,10 @@ using std::printf;
 class Solution {
 public:
     int maxSubArray(vector<int>& nums) {
+        /*
+         * 4 ms	
+         * 9.4 MB
+         */
         int n = nums.size();
         if (n == 0) {
             return 0;
