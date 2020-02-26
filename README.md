@@ -8,7 +8,7 @@
 
 + No.1 [cpp](cpp/1.cpp) [python](python/1.py)
 
-### 二叉树
+## 二叉树
 
 #### 二叉树的遍历
 
@@ -22,4 +22,9 @@
 
 ## 动态规划
 
-No.53 [cpp](cpp/53.cpp) [python](python/53.py)
++ No.53 [cpp](cpp/53.cpp) [python](python/53.py)
+
+## 递归 
+
++ No.100 [cpp](cpp/100.py) [python](python/100.py)
++ No.108 [cpp](cpp/100.py) [python](python/108.py)
