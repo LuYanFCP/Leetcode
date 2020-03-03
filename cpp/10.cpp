@@ -1,94 +1,100 @@
+#include <string>
 #include <iostream>
 #include <cassert>
 #include <vector>
-#include<algorithm>
-using std::cout;
+using std::string;
 using std::vector;
-using std::endl;
-using std::min;
-using std::max;
 
-// #define min(a, b) (a) > (b) ? (b) : (a)
-// #define max(a, b) (a) > (b) ? (a) : (b)
-
+struct Pattern
+{
+    vector<char> str;
+    vector<bool> isRepeat;
+    int len;
+    bool flag = false;
+    Pattern(string &p) {
+        char c;
+        len = 0;
+        int plus = 0;
+        for (int i = 0; i < p.size(); ++i) {
+            
+            c = p[i];
+            if (c == '*') {
+                isRepeat.pop_back();
+                isRepeat.push_back(true);
+                plus++;
+            } else {
+                str.push_back(c);
+                isRepeat.push_back(false);
+                len++;
+            }
+        }
+        if (plus == len) {
+            flag = true;
+        }
+    }
+    // void print() {
+    //     for (char c: str) {
+    //         std::cout << c << " " ; 
+    //     }
+    //     std::cout << std::endl;
+    //     for (bool b: isRepeat) {
+    //         std::cout << b << " ";
+    //     }
+    //     std::cout << std::endl;
+    // }
+};
 
 class Solution {
-private:
-    // int **ptr;
-    // int len;
-    int *ptr;
-    
 public:
-    void Clear() {
-        // for (int i = 0; i < len; i++) {
-        //     delete[] ptr[i];
-        // }
-        // delete[] ptr;
-        if (!ptr) {
-            delete[] ptr;
-        }
+    /* 
+     * 72 ms, faster than 23.75% 
+     * 7.8 MB, less than 100.00%
+     */
+    bool isMatch(string s, string p) {
+        Pattern pattern(p);
+        if (s.size() == 0 && pattern.flag)
+            return true;
+        return match(s, pattern, 0, 0);
     }
-    ~Solution() {
-        Clear();
-    }
-
-
-    int maxArea(vector<int>& height) {
-        /*
-         *  从i-j之间最大的矩形为 m(i, j)
-         *  它可以变成
-         *  m(i, j) = max(m(i-1, j), m(i-1, j), min(h[i], h[j]) * (j - i))
-         */
-        int n = height.size();
-        int rs = 0;
-
-        // 初始化二维数组
-        // len = n;
-        // ptr = new int*[n];
-        // for (int i = 0; i < n; i++) {
-        //     ptr[i] = new int[n];
-        // }
-        ptr = new int[n]();
-
-        // // 遍历数组进行计算   
-        // for (int i = 1; i < n; i++) {
-        //     for (int j = n - 1; j >=0; j--) {
-        //         // if (j != 0) { 
-        //         //     ptr[i][j] = max( max(ptr[i - 1][j], ptr[i][j - 1]), min(height[i], height[j]) * (i - j));
-        //         // } else {
-        //         //     ptr[i][j] = max(ptr[i - 1][j], (min(height[i], height[j]) * (i - j)));
-        //         // }
-        //         // cout << "{i: " << i << ", j:" << j << "}" << endl;
-        //         cout << ptr[j] << endl;
-        //         if (j != 0)
-        //             ptr[j] = max(max (ptr[j], ptr[j - 1]), min(height[i], height[j]) * (i - j));
-        //         else
-        //             ptr[j] = max(ptr[j], min(height[i], height[j]) * (i - j));
-        //         if (ptr[j] > rs)
-        //             rs = ptr[j];
-        //         // if (ptr[i][j] > rs) {
-        //         //     rs = ptr[i][j];
-        //         // }
-        //     }
-        // }      
-
-	
-		int p = 0,q = height.size() - 1;
-		int ans=INT_MIN;
-		while(p < q) {
-			ans=max(ans, min(height[p],height[q]) * (q - p));
-			if(height[p]<height[q]) p++;
-			else q--;
+    bool match(string &s, Pattern &p, int s_pos, int p_pos) {
+        if (s_pos == s.size()) {
+            for (int i = p_pos; i < p.len; ++i) {
+                if (!p.isRepeat[i])
+                    return false;
+            }
+            return true;
         }
-        return rs;
 
+        if (p_pos == p.len)
+            return false;
+        
+        char pattern = p.str[p_pos];
+        if (pattern == s[s_pos] || pattern == '.') {
+            if (p.isRepeat[p_pos]) {
+                return match(s, p, s_pos + 1, p_pos) || match(s, p, s_pos, p_pos + 1);
+            } else {
+                return match(s, p, s_pos + 1, p_pos + 1);
+            }
+        } else if (p.isRepeat[p_pos]) {
+            return match(s, p, s_pos, p_pos+1);
+        }
+        return false;
     }
 };
 
 int main() {
     Solution s;
-
-    vector<int> heights{1, 8, 6, 2, 5, 4, 8, 3, 7}; 
-    cout << s.maxArea(heights) << endl;
-
+    
+    assert(s.isMatch("aa", "a") == false);
+    assert(s.isMatch("aa", "a*") == true);
+    assert(s.isMatch("ab", ".*") == true);
+    assert(s.isMatch("aab", "c*a*b") == true);
+    assert(s.isMatch("ab", ".*c") == false);
+    assert(s.isMatch("aaa", "ab*ac*a") == true);
+    assert(s.isMatch("bbbba", ".*a*a") == true);
+    assert(s.isMatch("", "c*c*") == true);
+    assert(s.isMatch("aabcbcbcaccbcaabc", ".*a*aa*.*b*.c*.*a*"));
+    /*
+"aaa"
+"ab*ac*a"*/
 }

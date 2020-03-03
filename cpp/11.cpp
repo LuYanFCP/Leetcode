@@ -1,7 +1,8 @@
 #include <iostream>
 #include <cassert>
 #include <vector>
-#include<algorithm>
+#include <algorithm>
+#include <climits>
 using std::cout;
 using std::vector;
 using std::endl;
