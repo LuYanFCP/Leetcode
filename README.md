@@ -33,5 +33,5 @@
 
 ### 剑指offer系列
 
-+ No.45 [cpp](#) [python](剑指offer/python/45.cpp)
++ No.45 [cpp](#) [python](剑指offer/python/45.py)
 + No.59 [cpp](剑指offer/cpp/59.cpp)
