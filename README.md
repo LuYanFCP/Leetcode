@@ -30,6 +30,10 @@
 + No.100 [cpp](cpp/100.py) [python](python/100.py)
 + No.108 [cpp](cpp/100.py) [python](python/108.py)
 
+## 前缀和/树状数组
+
+No.303 [cpp](cpp/303.cpp)
+No.307 [cpp](cpp/307.cpp)
 
 ### 剑指offer系列
 
