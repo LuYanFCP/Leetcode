@@ -13,8 +13,9 @@ struct Node {
 class LFUCache {
 
 /**
- * 1. 更新把所有LFU需要更新的操作抽象出一个函数。
- * 2. 插入时候也考虑
+ * Memory Usage: 36.6 MB, less than 100.00% of C++ online submissions for LFU Cache.
+ * Runtime: 168 ms, faster than 14.90% of C++ online submissions for LFU Cache. 
+ *    
  */
 public:
     LFUCache(int capacity) {
@@ -47,7 +48,7 @@ public:
         ++(pos->freq);
 
         // 找到插入位点，进行插入
-        it = _up(it);
+        it = _up(it, pos->freq);
         insert_after(it, pos);
         // 返回pos的val
         return pos->val;
@@ -65,7 +66,7 @@ public:
                  * 1. 从尾部开始
                  */
                 Node* it = tail;
-                it = _up(it);
+                it = _up(it, 1);
                 insert_after(it, node);
                 len++; // 增加长度
                 (*hashmap)[key] = node; // 插入
@@ -78,7 +79,7 @@ public:
                 tail_node->key = key;
                 tail_node->val = value; // 更换val
                 tail_node->freq = 1;
-                it = _up(it);
+                it = _up(it, 1);
                 insert_after(it, tail_node);
                 // 更新hash表
                 auto temp = hashmap->find(pre_key);
@@ -111,9 +112,8 @@ private:
         return tail->pre; 
     }
 
-    Node* _up(Node* pos) {
-        int pos_freq = pos->freq;
-        for (; pos->freq <= pos_freq; pos = pos->pre);
+    Node* _up(Node* pos, int freq) {
+        for (; pos->freq <= freq; pos = pos->pre);
         return pos;
     }
 
