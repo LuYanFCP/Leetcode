@@ -24,25 +24,32 @@ public:
         len = 0; // 链表的长度
         head = new Node(-1, -1);
         tail = new Node(-1, -1);
-        head->val = INT_MAX;  // 一定会到这个位置停止
+        head->freq = INT_MAX;  // 一定会到这个位置停止
+        tail->freq = 0;  // 尾节点的freq一定是0
         head->next = tail;
         tail->pre = head;
     }
     
     int get(int key) {
         auto target = hashmap->find(key);
-        if (target == hashmap->end())
+        if (target == hashmap->end())  // 如果能get到一定能命中
             return -1;
-        // 放置在最前面的节点
-        Node* pos = target->second;
+        Node* pos = target->second; // 获得node的位置，进行更新
+        /**
+         * 1. 保留pos之前的节点指针
+         * 2. 删除pos节点
+         * 3. pos->freq++;
+         * 4. 找到pos节点插入位点
+         * 5. 
+        */
         Node* it = pos->pre;
-        // 去掉节点
-        del_node(pos);
-        
-        int pos_val = ++(pos->val);
-        // 加上插入节点头, 向前走，然后插入
-        for (; it->val <= pos->val; it = it->pre);
+        del_node(pos); // 删除节点
+        ++(pos->freq);
+
+        // 找到插入位点，进行插入
+        it = _up(it);
         insert_after(it, pos);
+        // 返回pos的val
         return pos->val;
     }
     
@@ -53,7 +60,13 @@ public:
             if (len < capacity) {
                 Node* node = new Node(key, value);
                 node->freq = 1;
-                insert_head(node);
+                // insert_head(node);
+                /**
+                 * 1. 从尾部开始
+                 */
+                Node* it = tail;
+                it = _up(it);
+                insert_after(it, node);
                 len++; // 增加长度
                 (*hashmap)[key] = node; // 插入
             } else {
@@ -65,8 +78,7 @@ public:
                 tail_node->key = key;
                 tail_node->val = value; // 更换val
                 tail_node->freq = 1;
-                
-                for (; it->val <= 1; it = it->pre);
+                it = _up(it);
                 insert_after(it, tail_node);
                 // 更新hash表
                 auto temp = hashmap->find(pre_key);
@@ -99,6 +111,12 @@ private:
         return tail->pre; 
     }
 
+    Node* _up(Node* pos) {
+        int pos_freq = pos->freq;
+        for (; pos->freq <= pos_freq; pos = pos->pre);
+        return pos;
+    }
+
     void insert_after(Node* pos, Node *node) {
         node->next = pos->next; // node后一个指针指向下一个
         pos->next->pre = node;  // pos后一个有一个指针指向node
@@ -118,3 +136,18 @@ private:
  * int param_1 = obj->get(key);
  * obj->put(key,value);
  */
+
+int main()
+{
+    LFUCache cache( 2 /* capacity */ );
+    cache.put(1, 1);
+    cache.put(2, 2);
+    cache.get(1);       // returns 1
+    cache.put(3, 3);    // evicts key 2
+    cache.get(2);       // returns -1 (not found)
+    cache.get(3);       // returns 3.
+    cache.put(4, 4);    // evicts key 1.
+    cache.get(1);       // returns -1 (not found)
+    cache.get(3);       // returns 3
+    cache.get(4);       // returns 4
+}
