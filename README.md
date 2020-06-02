@@ -4,9 +4,14 @@
 
 ## 分类整理
 
+## 位运算
+
+No.136 [cpp](cpp/136.cpp)
+
 ### 散列表（HashTable）
 
 + No.1 [cpp](cpp/1.cpp) [python](python/1.py)
++ No.3 [cpp](cpp/3.cpp)
 
 ## 二叉树
 
