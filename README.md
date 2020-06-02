@@ -6,7 +6,8 @@
 
 ## 位运算
 
-No.136 [cpp](cpp/136.cpp)
++ No.136 [cpp](cpp/136.cpp)
++ No.64 [cpp](cpp/64.cpp) [python](python/64.py)
 
 ### 散列表（HashTable）
 
@@ -15,7 +16,7 @@ No.136 [cpp](cpp/136.cpp)
 
 ## 二叉树
 
-#### 二叉树的遍历
+### 二叉树的遍历
 
 + No.113: [cpp](cpp/113.cpp) [python](python/113.py)
 
@@ -37,8 +38,12 @@ No.136 [cpp](cpp/136.cpp)
 
 ## 前缀和/树状数组
 
-No.303 [cpp](cpp/303.cpp)
-No.307 [cpp](cpp/307.cpp)
++ No.303 [cpp](cpp/303.cpp)
++ No.307 [cpp](cpp/307.cpp)
+
+## 二分
+
++ No.128 [cpp](cpp/128.cpp) [python](python/128.py)
 
 ### 剑指offer系列
 
