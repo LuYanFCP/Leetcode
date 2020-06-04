@@ -14,6 +14,10 @@
 + No.1 [cpp](cpp/1.cpp) [python](python/1.py)
 + No.3 [cpp](cpp/3.cpp)
 
+### 双指针
+
++ No.238 [cpp](cpp/238.cpp) [python](python/238.py)
+
 ## 二叉树
 
 ### 二叉树的遍历
@@ -29,7 +33,8 @@
 ## 动态规划
 
 + No.53 [cpp](cpp/53.cpp) [python](python/53.py)
-+ No.120 [cpp](cpp/120.cpp) [python](python/120.cpp)
++ No.120 [cpp](cpp/120.cpp) [python](python/120.py)
++ No.837 [cpp](cpp/837.cpp) [python](python/837.py)
 
 ## 递归 
 
