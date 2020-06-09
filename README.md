@@ -4,7 +4,15 @@
 
 ## 分类整理
 
-## 位运算
+### dfs
+
++ No.46 [python](python/46.py)
+
+### 并查集
+
++ No.990 [cpp（未优化）](cpp/990.cpp) [cpp优化](cpp/990_1.cpp)
+
+### 位运算
 
 + No.136 [cpp](cpp/136.cpp)
 + No.64 [cpp](cpp/64.cpp) [python](python/64.py)
@@ -32,6 +40,7 @@
 
 ## 动态规划
 
++ No.46 [cpp]()  [python](python/46_dp.py)
 + No.53 [cpp](cpp/53.cpp) [python](python/53.py)
 + No.120 [cpp](cpp/120.cpp) [python](python/120.py)
 + No.837 [cpp](cpp/837.cpp) [python](python/837.py)
