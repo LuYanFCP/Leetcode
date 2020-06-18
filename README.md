@@ -31,6 +31,7 @@
 ### 二叉树的遍历
 
 + No.113: [cpp](cpp/113.cpp) [python](python/113.py)
++ No.1028: [cpp](cpp/1028.cpp) [python](python/1028.py)
 
 ## 排序
 
