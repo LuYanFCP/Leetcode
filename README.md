@@ -27,6 +27,12 @@
 
 + No.238 [cpp](cpp/238.cpp) [python](python/238.py)
 
+### 字典树
+
++ No.208 [cpp](cpp/数据结构/Trie.cpp)
++ No.211 [cpp](cpp/211.cpp)
++ No.212 [cpp](cpp/212.cpp)
+
 ## 二叉树
 
 ### 二叉树的遍历
