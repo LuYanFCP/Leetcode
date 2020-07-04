@@ -34,6 +34,10 @@
 + No.211 [cpp](cpp/211.cpp)
 + No.212 [cpp](cpp/212.cpp)
 
+### 栈
+
++ No.32 [cpp](cpp/32.cpp) [python](python/32.py)
+
 ## 二叉树
 
 ### 二叉树的遍历
