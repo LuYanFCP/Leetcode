@@ -8,6 +8,7 @@
 
 + No.46 [python](python/46.py)
 + No.126 [cpp](cpp/126.cpp) [python](python/126.py)
++ No.543 [cpp](cpp/543.cpp) [python](python/543.py)
 
 ### 并查集
 
