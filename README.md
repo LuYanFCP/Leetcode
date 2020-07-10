@@ -38,6 +38,7 @@
 ### 栈
 
 + No.32 [cpp](cpp/32.cpp) [python](python/32.py)
++ No.42 [python](python/42.cpp)
 
 ## 二叉树
 
@@ -63,6 +64,10 @@
 + No.126 [cpp](cpp/126.cpp) [python](python/126.py)
 + No.1014 [cpp](cpp/1014.cpp) [python](python/1014.py) easy
 
+#### 状态机DP
+
++ No.309 [cpp](cpp/309.cpp) [python](python/309.py)
+
 ## 递归 
 
 + No.100 [cpp](cpp/100.py) [python](python/100.py)
@@ -85,3 +90,9 @@
 + No.45 [cpp](#) [python](剑指offer/python/45.py)
 + No.51 [cpp](剑指offer/cpp/51.cpp) [python](剑指offer/python/51.py)
 + No.59 [cpp](剑指offer/cpp/59.cpp)
+
+## 专题
+
+### 状态DP
+
+[股票问题](专题/状态DP/股票问题)
