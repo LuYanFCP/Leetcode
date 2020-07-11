@@ -1,6 +1,11 @@
 ## 简介
 
-此为我的Leetcode刷题记录
+![]( https://visitor-badge.glitch.me/badge?page_id=<your_page_id>)
+
+Leetcode刷题记录 
+
++ Python/C++: @[luyanfcp](https://github.com/LuYanFCP) 
++ Java: @[AComputerFan](https://github.com/AComputerFan)
 
 ## 分类整理
 
