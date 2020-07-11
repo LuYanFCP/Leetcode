@@ -2,3 +2,4 @@
 .vscode
 example
 *.out
+.idea
