@@ -77,7 +77,7 @@
 
 + No.303 [cpp](cpp/303.cpp)
 + No.307 [cpp](cpp/307.cpp)
-+ No.315 [python](python/315.py)   [java](java/Problem315.py) 
++ No.315 [python](python/315.py)   [java](java/Problem315.java) 
 
 ## 二分
 
