@@ -68,6 +68,7 @@ Leetcode刷题记录
 + No.837 [cpp](cpp/837.cpp) [python](python/837.py)
 + No.126 [cpp](cpp/126.cpp) [python](python/126.py)
 + No.1014 [cpp](cpp/1014.cpp) [python](python/1014.py) easy
++ No.174  [java](java/Problem174.java)
 
 #### 状态机DP
 
