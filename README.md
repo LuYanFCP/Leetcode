@@ -65,17 +65,18 @@ Leetcode刷题记录
 + No.63 [cpp](cpp/63.cpp) [python](python/63.py)
 + No.70 [cpp](cpp/70.cpp) [python](python/70.py)   easy
 + No.53 [cpp](cpp/53.cpp) [python](python/53.py)
++ No.96 [cpp](cpp/96.cpp) [python](python/96.py) easy
 + No.120 [cpp](cpp/120.cpp) [python](python/120.py)
 + No.837 [cpp](cpp/837.cpp) [python](python/837.py)
 + No.126 [cpp](cpp/126.cpp) [python](python/126.py)
 + No.1014 [cpp](cpp/1014.cpp) [python](python/1014.py) easy
-+ No.174  [cpp](cpp/174.cpp) [python](python/174.py) [java](java/Problem174.java) 
++ No.174  [cpp](cpp/174.cpp) [python](python/174.py) [java](java/Problem174.java)
 
-#### 状态机DP
+### 状态机DP
 
 + No.309 [cpp](cpp/309.cpp) [python](python/309.py)
 
-## 递归 
+## 递归
 
 + No.100 [cpp](cpp/100.py) [python](python/100.py)
 + No.108 [cpp](cpp/100.py) [python](python/108.py)
@@ -93,8 +94,9 @@ Leetcode刷题记录
 + No.1300 [cpp](cpp/1300.cpp) [python](python/1300.py)
 + No.878 [cpp](cpp/878.cpp) [python](python/878.py)
 
-### 剑指offer系列
+## 剑指offer系列
 
++ No.14 [cpp](指offer/cpp/14.cpp) [python](剑指offer/python/14.py)
 + No.45 [cpp](#) [python](剑指offer/python/45.py)
 + No.51 [cpp](剑指offer/cpp/51.cpp) [python](剑指offer/python/51.py)
 + No.59 [cpp](剑指offer/cpp/59.cpp)
@@ -104,4 +106,3 @@ Leetcode刷题记录
 ### 状态DP
 
 [股票问题](专题/状态DP/股票问题)
-
