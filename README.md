@@ -28,6 +28,7 @@ Leetcode刷题记录
 
 + No.1 [cpp](cpp/1.cpp) [python](python/1.py)
 + No.3 [cpp](cpp/3.cpp)
++ No.350 [cpp](cpp/350.cpp) [python](python/350.py)
 
 ### 双指针
 
@@ -68,7 +69,7 @@ Leetcode刷题记录
 + No.837 [cpp](cpp/837.cpp) [python](python/837.py)
 + No.126 [cpp](cpp/126.cpp) [python](python/126.py)
 + No.1014 [cpp](cpp/1014.cpp) [python](python/1014.py) easy
-+ No.174  [java](java/Problem174.java)
++ No.174  [cpp](cpp/174.cpp) [python](python/174.py) [java](java/Problem174.java) 
 
 #### 状态机DP
 
