@@ -14,6 +14,7 @@ Leetcode刷题记录
 + No.46 [python](python/46.py)
 + No.126 [cpp](cpp/126.cpp) [python](python/126.py)
 + No.543 [cpp](cpp/543.cpp) [python](python/543.py)
++ No.785 [cpp-dfs](cpp/785.cpp) [cpp-bfs](cpp/785-bfs.cpp)  **二分图染色问题**
 
 ### 并查集
 
@@ -65,7 +66,7 @@ Leetcode刷题记录
 + No.63 [cpp](cpp/63.cpp) [python](python/63.py)
 + No.70 [cpp](cpp/70.cpp) [python](python/70.py)   easy
 + No.53 [cpp](cpp/53.cpp) [python](python/53.py)
-+ No.96 [cpp](cpp/96.cpp) [python](python/96.py)   [java](java\Problem96.java)  easy
++ No.96 [cpp](cpp/96.cpp) [python](python/96.py) easy
 + No.120 [cpp](cpp/120.cpp) [python](python/120.py)
 + No.837 [cpp](cpp/837.cpp) [python](python/837.py)
 + No.126 [cpp](cpp/126.cpp) [python](python/126.py)
