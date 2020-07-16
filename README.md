@@ -90,6 +90,7 @@ Leetcode刷题记录
 
 ## 二分
 
++ No.32 [cpp](cpp/35.cpp)
 + No.50 快速幂 [cpp](cpp/50.cpp) [python](python/50.py)
 + No.128 [cpp](cpp/128.cpp) [python](python/128.py)
 + No.1300 [cpp](cpp/1300.cpp) [python](python/1300.py)
