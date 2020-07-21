@@ -15,6 +15,7 @@ Leetcode刷题记录
 + No.126 [cpp](cpp/126.cpp) [python](python/126.py)
 + No.543 [cpp](cpp/543.cpp) [python](python/543.py)
 + No.785 [cpp-dfs](cpp/785.cpp) [cpp-bfs](cpp/785-bfs.cpp)  **二分图染色问题**
++ No.95 [cpp](cpp/95.cpp)
 
 ### 并查集
 
@@ -72,6 +73,7 @@ Leetcode刷题记录
 + No.126 [cpp](cpp/126.cpp) [python](python/126.py)
 + No.1014 [cpp](cpp/1014.cpp) [python](python/1014.py) easy
 + No.174  [cpp](cpp/174.cpp) [python](python/174.py) [java](java/Problem174.java)
++ No.312 [cpp](cpp/312.cpp)
 
 ### 状态机DP
 
