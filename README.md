@@ -101,6 +101,10 @@ Leetcode刷题记录
 + No.1300 [cpp](cpp/1300.cpp) [python](python/1300.py)
 + No.878 [cpp](cpp/878.cpp) [python](python/878.py)
 
+## 数学题
+
++ No.1025 [python](python/1025.py)
+
 ## 剑指offer系列
 
 + No.14 [cpp](指offer/cpp/14.cpp) [python](剑指offer/python/14.py)
@@ -113,3 +117,9 @@ Leetcode刷题记录
 ### 状态DP
 
 [股票问题](专题/状态DP/股票问题)
+
+### 回溯
+
++ No.76 [python](python/76.py)
++ No.77 [python](python/77.py)
++ No.90 [python](python/90.py)
