@@ -123,3 +123,7 @@ Leetcode刷题记录
 + No.76 [python](python/76.py)
 + No.77 [python](python/77.py)
 + No.90 [python](python/90.py)
+
+### 二分（挖坑中）
+
++ No.412 [python](python/410.py)
