@@ -15,8 +15,8 @@ public:
                 dp[i] = max(dp[i-j]*dp[j], dp[i]);
         }
         
-        ostream_iterator<int> out(cout, " ");
-        std::copy(dp.begin(), dp.end(), out);
+        // ostream_iterator<int> out(cout, " ");
+        // std::copy(dp.begin(), dp.end(), out);
         return dp[n];
         
     }
