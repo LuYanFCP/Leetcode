@@ -9,6 +9,10 @@ Leetcode刷题记录
 
 ## 分类整理
 
+### 链表
+
++No.2 [cpp](cpp/2.cpp)
+
 ### dfs
 
 + No.46 [python](python/46.py)
@@ -76,6 +80,7 @@ Leetcode刷题记录
 + No.1014 [cpp](cpp/1014.cpp) [python](python/1014.py) easy
 + No.174  [cpp](cpp/174.cpp) [python](python/174.py) [java](java/Problem174.java)
 + No.312 [cpp](cpp/312.cpp)
++ No.343 [cpp](cpp/343.cpp)
 
 ### 状态机DP
 
@@ -104,6 +109,7 @@ Leetcode刷题记录
 ## 数学题
 
 + No.1025 [python](python/1025.py)
++ No.149 [cpp](cpp/149.cpp)
 
 ## 剑指offer系列
 

@@ -35,5 +35,38 @@ public:
         if (carry) curr->next = new ListNode(1);
         return head->next; // 丢弃头部
     }
-};
 
+    ListNode* addTwoNumbers2(ListNode* l1, ListNode* l2) {
+        /**
+         * O(1)空间复杂度，但是会破坏l1和l2
+        */
+        ListNode* pos1 = l1, *pos2 = l2, *pre=nullptr;
+        int add_flag = 0, sum;
+        while(pos1 && pos2) {
+            sum = pos1->val + pos2->val + add_flag;
+            // 1和0
+            if (sum >= 10) add_flag = 1;
+            else add_flag = 0;
+            pos1->val = sum % 10;
+            pre = pos1;
+            pos1 = pos1->next;
+            pos2 = pos2->next;
+        }
+        if (pos2) { // 如果l2证明
+            pre->next = pos2;
+            pos1 = pos2;
+        }
+        while (pos1) {
+            sum = pos1->val + add_flag;
+            if (sum >= 10) add_flag = 1;
+            else add_flag = 0;
+            pre = pos1;
+            pos1->val = sum % 10;
+            pos1 = pos1->next;
+        }
+        if (add_flag) {
+            pre->next = new ListNode(add_flag);
+        }
+        return l1;
+    }
+};
