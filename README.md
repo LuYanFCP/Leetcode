@@ -11,7 +11,8 @@ Leetcode刷题记录
 
 ### 链表
 
-+No.2 [cpp](cpp/2.cpp)
++ No.2 [cpp](cpp/2.cpp)
++ No.2 [cpp](cpp/109.cpp)
 
 ### dfs/bfs
 
