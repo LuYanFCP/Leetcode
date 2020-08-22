@@ -127,6 +127,10 @@ Leetcode刷题记录
 + No.51 [cpp](剑指offer/cpp/51.cpp) [python](剑指offer/python/51.py)
 + No.59 [cpp](剑指offer/cpp/59.cpp)
 
+### 暴力破解
+
++ No. 679 [cpp](cpp/679.cpp)
+
 ## 专题
 
 ### 状态DP
