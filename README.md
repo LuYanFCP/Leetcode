@@ -2,17 +2,36 @@
 
 ![]( https://visitor-badge.glitch.me/badge?page_id=<your_page_id>)
 
-Leetcode刷题记录 
+Leetcode刷题记录
 
 + Python/C++: @[luyanfcp](https://github.com/LuYanFCP) 
 + Java: @[AComputerFan](https://github.com/AComputerFan)
 
-## 分类整理
+分类整理
+---------------
+
+## 线性数据结构
 
 ### 链表
 
 + No.2 [cpp](cpp/2.cpp)
 + No.2 [cpp](cpp/109.cpp)
+
+### 字符串
+
++ No.647 [cpp](cpp/647.cpp)  **回文串算法**
+
+### 栈
+
++ No.32 [cpp](cpp/32.cpp) [python](python/32.py)
++ No.42 [python](python/42.cpp)
+
+## 图
+
+### 二叉树的遍历
+
++ No.113: [cpp](cpp/113.cpp) [python](python/113.py)
++ No.1028: [cpp](cpp/1028.cpp) [python](python/1028.py)
 
 ### dfs/bfs
 
@@ -27,25 +46,6 @@ Leetcode刷题记录
 + No.529 [cpp](cpp/529.cpp)
 + No.733 [cpp](cpp/733.cpp)
 
-### 并查集
-
-+ No.990 [cpp（未优化）](cpp/990.cpp) [cpp优化](cpp/990_1.cpp)
-
-### 位运算
-
-+ No.136 [cpp](cpp/136.cpp)
-+ No.64 [cpp](cpp/64.cpp) [python](python/64.py)
-
-### 散列表（HashTable）
-
-+ No.1 [cpp](cpp/1.cpp) [python](python/1.py)
-+ No.3 [cpp](cpp/3.cpp)
-+ No.350 [cpp](cpp/350.cpp) [python](python/350.py)
-
-### 双指针
-
-+ No.238 [cpp](cpp/238.cpp) [python](python/238.py)
-
 ### 字典树
 
 + No.139 [cpp](cpp/139.cpp)
@@ -53,21 +53,24 @@ Leetcode刷题记录
 + No.211 [cpp](cpp/211.cpp)
 + No.212 [cpp](cpp/212.cpp)
 
-### 字符串
+### 并查集
 
-+ No.647 [cpp](cpp/647.cpp)  **回文串算法**
++ No.990 [cpp（未优化）](cpp/990.cpp) [cpp优化](cpp/990_1.cpp)
 
-### 栈
+## 散列表（HashTable）
 
-+ No.32 [cpp](cpp/32.cpp) [python](python/32.py)
-+ No.42 [python](python/42.cpp)
++ No.1 [cpp](cpp/1.cpp) [python](python/1.py)
++ No.3 [cpp](cpp/3.cpp)
++ No.350 [cpp](cpp/350.cpp) [python](python/350.py)
 
-## 二叉树
+## 位运算
 
-### 二叉树的遍历
++ No.136 [cpp](cpp/136.cpp)
++ No.64 [cpp](cpp/64.cpp) [python](python/64.py)
 
-+ No.113: [cpp](cpp/113.cpp) [python](python/113.py)
-+ No.1028: [cpp](cpp/1028.cpp) [python](python/1028.py)
+### 双指针
+
++ No.238 [cpp](cpp/238.cpp) [python](python/238.py)
 
 ## 排序
 
@@ -99,7 +102,9 @@ Leetcode刷题记录
 + No.100 [cpp](cpp/100.py) [python](python/100.py)
 + No.108 [cpp](cpp/100.py) [python](python/108.py)
 
-## 前缀和/树状数组
+## 经典算法
+
+### 前缀和/树状数组
 
 + No.303 [cpp](cpp/303.cpp)
 + No.307 [cpp](cpp/307.cpp)
@@ -115,6 +120,10 @@ Leetcode刷题记录
 + No.1300 [cpp](cpp/1300.cpp) [python](python/1300.py)
 + No.878 [cpp](cpp/878.cpp) [python](python/878.py)
 
+### 暴力破解
+
++ No. 679 [cpp](cpp/679.cpp)
+
 ## 数学题
 
 + No.1025 [python](python/1025.py)
@@ -126,10 +135,6 @@ Leetcode刷题记录
 + No.45 [cpp](#) [python](剑指offer/python/45.py)
 + No.51 [cpp](剑指offer/cpp/51.cpp) [python](剑指offer/python/51.py)
 + No.59 [cpp](剑指offer/cpp/59.cpp)
-
-### 暴力破解
-
-+ No. 679 [cpp](cpp/679.cpp)
 
 ## 专题
 
@@ -147,5 +152,4 @@ Leetcode刷题记录
 
 + No.412 [python](python/410.py)
 
-### 极大极小问题
-
+#### 极大极小问题
