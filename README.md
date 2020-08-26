@@ -35,6 +35,7 @@ Leetcode刷题记录
 
 ### dfs/bfs
 
++ No.17 [cpp](cpp/17.cpp)
 + No.46 [python](python/46.py)
 + No.126 [cpp](cpp/126.cpp) [python](python/126.py)
 + No.543 [cpp](cpp/543.cpp) [python](python/543.py)
@@ -130,6 +131,7 @@ Leetcode刷题记录
 
 + No.1025 [python](python/1025.py)
 + No.149 [cpp](cpp/149.cpp)
++ No.621 [cpp](cpp/621.cpp)
 
 ## 剑指offer系列
 
