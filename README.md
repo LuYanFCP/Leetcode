@@ -41,7 +41,7 @@ Leetcode刷题记录
 + No.543 [cpp](cpp/543.cpp) [python](python/543.py)
 + No.785 [cpp-dfs](cpp/785.cpp) [cpp-bfs](cpp/785-bfs.cpp)  **二分图染色问题**
 + No.95 [cpp](cpp/95.cpp)
-+ No.77 [python](python/77.py)
++ No.77 [python](python/77.py) [cpp](cpp/77.cpp) [python](python/77_.py)
 + No.97 [python](python/97.py)
 + No.111 [cpp](cpp/111.cpp)  easy
 + No.491 [cpp](cpp/491.cpp)
