@@ -36,6 +36,7 @@ Leetcode刷题记录
 ### dfs/bfs
 
 + No.17 [cpp](cpp/17.cpp)
++ No.39 [cpp](cpp/39.cpp) [python](python/39.py)
 + No.46 [python](python/46.py)
 + No.126 [cpp](cpp/126.cpp) [python](python/126.py)
 + No.543 [cpp](cpp/543.cpp) [python](python/543.py)
