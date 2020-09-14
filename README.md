@@ -25,6 +25,7 @@ Leetcode刷题记录
 
 + No.32 [cpp](cpp/32.cpp) [python](python/32.py)
 + No.42 [python](python/42.cpp)
++ No.94 [cpp](cpp/94.cpp) [python](python/94.py)
 
 ## 图
 
