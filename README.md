@@ -37,6 +37,7 @@ Leetcode刷题记录
 ### dfs/bfs
 
 + No.17 [cpp](cpp/17.cpp)
++ No.37 [cpp](cpp/37.cpp) [python](python/37.py)
 + No.39 [cpp](cpp/39.cpp) [python](python/39.py)
 + No.40 [cpp](cpp/40.cpp) [python](python/40.py)
 + No.46 [python](python/46.py)
@@ -63,6 +64,8 @@ Leetcode刷题记录
 
 ### 并查集
 
++ No.684 [cpp](cpp/684.cpp)
++ No.685 [cpp](cpp/685.cpp)
 + No.990 [cpp（未优化）](cpp/990.cpp) [cpp优化](cpp/990_1.cpp)
 
 ## 散列表（HashTable）
