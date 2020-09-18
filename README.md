@@ -41,6 +41,7 @@ Leetcode刷题记录
 + No.39 [cpp](cpp/39.cpp) [python](python/39.py)
 + No.40 [cpp](cpp/40.cpp) [python](python/40.py)
 + No.46 [python](python/46.py)
++ No.47 [cpp](cpp/47.cpp)
 + No.126 [cpp](cpp/126.cpp) [python](python/126.py)
 + No.543 [cpp](cpp/543.cpp) [python](python/543.py)
 + No.785 [cpp-dfs](cpp/785.cpp) [cpp-bfs](cpp/785-bfs.cpp)  **二分图染色问题**
