@@ -33,6 +33,7 @@ Leetcode刷题记录
 
 + No.113: [cpp](cpp/113.cpp) [python](python/113.py)
 + No.1028: [cpp](cpp/1028.cpp) [python](python/1028.py)
++ No.404: [cpp](cpp/404.cpp)
 
 ### dfs/bfs
 
