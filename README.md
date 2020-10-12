@@ -29,11 +29,12 @@ Leetcode刷题记录
 
 ## 图
 
-### 二叉树的遍历daoyu
+### 二叉树的遍历
 
 + No.113: [cpp](cpp/113.cpp) [python](python/113.py)
 + No.1028: [cpp](cpp/1028.cpp) [python](python/1028.py)
 + No.404: [cpp](cpp/404.cpp)
++ No.530: [cpp](cpp/530.cpp) [python](python/530.py)
 + No.538: [cpp](cpp/538.cpp)
 + No.968: [cpp](cpp/968.cpp)
 + No.617: [cpp](cpp/617.cpp)
