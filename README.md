@@ -26,6 +26,7 @@ Leetcode刷题记录
 + No.32 [cpp](cpp/32.cpp) [python](python/32.py)
 + No.42 [python](python/42.cpp)
 + No.94 [cpp](cpp/94.cpp) [python](python/94.py)
++ No.155 [cpp](cpp/155.cpp) [python](python/155.py)
 
 ## 图
 
@@ -135,6 +136,7 @@ Leetcode刷题记录
 + 面试题08.03 [cpp](面试宝典/cpp/08-03.cpp)
 + 剑指offer No.11 [cpp](剑指offer/cpp/11.cpp)
 + No.32 [cpp](cpp/35.cpp)
++ No.33 [python](python/33.py)
 + No.50 快速幂 [cpp](cpp/50.cpp) [python](python/50.py)
 + No.128 [cpp](cpp/128.cpp) [python](python/128.py)
 + No.1300 [cpp](cpp/1300.cpp) [python](python/1300.py)
